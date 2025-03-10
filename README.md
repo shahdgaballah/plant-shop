@@ -1,3 +1,3 @@
 # Plant Shop
-![Plant Shop Website](![plant-shop-website](https://github.com/user-attachments/assets/c186f01c-45c8-41c0-a9ee-971a945cd91d)
+![Plant Shop Website](https://github.com/shahdgaballah/plant-shop/blob/f08535931e0b0d01ab6d88ce95eee745ee6b287a/plant-shop-website.jpeg)
 )
