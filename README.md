@@ -20,11 +20,11 @@ A modern and responsive landing page for a plant shop, designed to showcase prod
 - HTML5
 - CSS3
 - Font Awesome Icons for navigation and UI elements
-
+  
 ## Live Demo
 
 [Live Demo](https://shahdgaballah.github.io/plant-shop/)
 
-##Screenshot
+## Screenshot
 ![Plant Shop](plant-shop-screenshot.jpeg)
 
