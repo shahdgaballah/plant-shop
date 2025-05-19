@@ -23,6 +23,6 @@ A modern and responsive landing page for a plant shop, designed to showcase prod
 
 ## Live Demo
 
-[Add your live demo link here]
+[Live Demo](https://shahdgaballah.github.io/plant-shop/)]
 
 
