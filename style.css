@@ -4,13 +4,26 @@
     margin: 0;
 }
 
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
 .nav{
     background-color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     margin-top: 2%;
+    padding: 0 5%;
 }
 
 .logo{
@@ -43,19 +56,24 @@
 }
 .ul-items{
     width: 100%;
-    color:grey;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: lighter;
     font-size: 22px;
-    list-style-type: none ;
+    list-style-type: none;
     display: flex;
     justify-content: start;
     align-items: center;
     gap: 40px;
+}
+
+.ul-items a {
+    color: #4D4D4D;
+    text-decoration: none;
     transition: color 0.3s;
 }
-.ul-items:hover{
-    color: black;
+
+.ul-items a:hover {
+    color: #000000;
 }
 
 .ul-icons{
@@ -64,6 +82,22 @@
     justify-content: flex-end;
     align-items: center;
     gap: 50px;
+    list-style-type: none;
+}
+
+.ul-icons a {
+    color: #A9A9A9;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.ul-icons a:hover {
+    color: #000000;
+}
+
+.ul-icons i {
+    font-size: 24px;
+    cursor: pointer;
 }
 
 .back {
@@ -93,13 +127,13 @@
     }
     
     h1{
-        font-family:fantasy;
-        font-size:450%;
+        font-family: fantasy;
+        font-size: 450%;
         word-spacing: 10px;
         letter-spacing: 3px;
         margin-left: 40px;
         margin-bottom: 60px;
-
+        line-height: 1.2;
     }
 
     .stats-container {
@@ -135,12 +169,12 @@
         margin-top: 40px;
         margin-left: 50px;
         width: fit-content;
-
+        position: relative;
     }
     /* Styling the input field */
 #srch {
     width: 450px;  
-    padding: 10px 15px;
+    padding: 10px 40px 10px 15px;
     font-size: 16px;
     border: 7px solid white;
     border-radius: 10px;
@@ -156,7 +190,23 @@
     font-family: fantasy;
     letter-spacing: 1px;
     word-spacing: 2px;
+}
 
+.search-icon {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #808080;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 1;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.search-icon:hover {
+    color: #000000;
 }
 
 .middle-container{
@@ -184,9 +234,8 @@
 }
 .rectangle{
     width: 60%;
-    margin-top: 200px;
+    margin-top: 161px;
     margin-right: 50px;
-
 }
 .overlay-container{
     display: flex;
@@ -198,7 +247,7 @@
 }
 .overlay{
     width: 60%;
-    margin-top: 60px;
+    margin-top: 25px;
     margin-left: 200px;
 }
 
@@ -351,7 +400,7 @@ button:hover{
     align-items: center;
     flex-direction: column;
     gap: 15px;
-
+    text-align: center;
 }
 
 .final-img{
@@ -377,6 +426,7 @@ button:hover{
     font-weight: bold;
     font-size: 49px;
     color: black;
+    text-align: center;
 }
 
 .order-now{
@@ -384,6 +434,7 @@ button:hover{
     font-size: 20px;
     color: grey;
     text-align: center;
+    width: 100%;
 }
 
 .title{
@@ -414,8 +465,7 @@ button:hover{
     justify-content: center;
     img{
         width: 2%;
-        margin-bottom:110px;
-        
+        margin-bottom: 110px;
     }
 }
 .vector2{
@@ -425,8 +475,7 @@ button:hover{
     justify-content: center;
     img{
         width: 2%;
-        margin-bottom:140px;
-        
+        margin-bottom: 140px;
     }
 }
 
@@ -438,7 +487,29 @@ button:hover{
     justify-content: center;
     img{
         width: 2%;
-        margin-bottom:140px;
-        
+        margin-bottom: 140px;
     }
+}
+
+.see-more-btn {
+    color: black;
+    width: 60%;
+    height: 8vh;
+    background-color: lightblue;
+    border: 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    margin-right: 110px;
+    margin-top: 50px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.see-more-btn:hover {
+    color: grey;
 }
