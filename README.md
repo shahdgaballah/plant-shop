@@ -14,5 +14,3 @@ A modern Angular 17 plant shop app that displays indoor plant images using the U
 - **API**: Unsplash Photo API
 - **Styling**: CSS3 Grid
 
-## 🌐 Live Demo
-**🚀 [View Live Demo]()**
