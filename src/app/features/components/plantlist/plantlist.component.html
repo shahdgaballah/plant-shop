@@ -1,0 +1,7 @@
+<div class="plants-grid">
+  <div *ngFor="let plant of plants" class="plant-card">
+    <img [src]="plant.urls?.regular" alt="{{plant.alt_description || 'Plant image'}}" />
+    <h3>{{ plant.alt_description || 'Plant' }}</h3>
+    <button class="add-to-cart-btn">Add to Cart</button>
+  </div>
+</div>

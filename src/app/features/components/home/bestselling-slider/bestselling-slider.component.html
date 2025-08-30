@@ -1,0 +1,18 @@
+<div class="plants-container">
+        <div class="text">
+            <h3>Best Selling <br>Plants</h3>
+            <p>Easiest way to <br>
+            healthy life by buying <br>
+            your favorite plant</p>
+            <button routerLink="/products" type="button">See more</button>
+        </div>
+        <div class="plant-details">
+            <div class="plants-img">
+                <div *ngFor="let plant of bestsellingPlants" class="plant-item">
+                    <img [src]="plant.urls?.regular" [alt]="plant.alt_description || 'Plant'" class="plant">
+                    <p class="name">{{ plant.alt_description || 'Plant' }}</p>
+                    <p class="price">$150.00</p>
+                </div>
+            </div>
+        </div> 
+</div> <!--plants container div-->
